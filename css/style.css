@@ -56,6 +56,7 @@
    --color-hover: #ffb84d;
    --color-focus: #ffb84d;
    --color-gray: #cacaca;
+   --background-color: #eaecee;
 }
 
 body {
@@ -67,6 +68,7 @@ body {
 
 a {
    text-decoration: none;
+   background-color: transparent;
    /* color: inherit;
    transition: color 0.2s linear; */
 }
@@ -345,8 +347,8 @@ html {
 
 .about-content__left {
    background-image: url(../img/about-bg.jpg);
-   min-height: 622px;
-   max-width: 870px;
+   min-height: 500px;
+   max-width: 675px;
    display: flex;
    align-items: flex-end;
    background-repeat: no-repeat;
@@ -354,54 +356,64 @@ html {
    background-position: center center;
    border-radius: 25px;
    margin-right: 32px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about-left__inner {
-   padding: 22px 0 0 54px;
+   padding: 14px 31px;
    display: flex;
    align-items: center;
    justify-content: space-between;
    background: rgba(0, 0, 0, 0.5);
    border-radius: 25px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about-left__text {
-   width: 533px;
-   font-weight: 700;
-   line-height: 25px;
+   width: 444px;
+   font-weight: 600;
+   line-height: 32px;
    color: var(--color-white);
+   text-align: justify;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .about-left__btn {
-   padding: 9px 45px;
+   padding: 19px 38px;
    font-weight: 700;
    border: 3px solid var(--color-default);
    color: var(--color-white);
-   margin-right: 50px;
+   margin-left: 32px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about-content__right {
    max-width: 800px;
+   max-height: 250px;
+   /* background-color: var(--background-color); */
+   /* border-radius: 25px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .about-right__item {
-   background-position: left 62px top 54px;
+   background-position: left 35px top 55px;
    background-repeat: no-repeat;
-   padding: 0px 0px 68px 250px;
-   border: 1px solid var(--color-gray);
+   padding: 14px 50px 14px 220px;
+   background-color: var(--background-color);
    border-radius: 25px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about-right__item:first-child {
    margin-bottom: 30px;
-   background-position: left 60px top 70px;
+   background-position: left 35px top 55px;
 }
 .about-right__title {
-   margin: 65px 0px 8px 0px;
    line-height: 30px;
    font-weight: 700;
-   font-size: 24px;
+   font-size: 20px;
 }
 
 .about-right__text {
    line-height: 32px;
+   font-size: 16px;
 }
