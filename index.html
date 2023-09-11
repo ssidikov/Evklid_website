@@ -20,51 +20,58 @@
 
     <header class="header">
       <div class="container header__container">
+        <button class="btn-reset burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
         <a href="index.html" class="logo header__logo">
           <img src="img/Logo.svg" alt="logo" />
         </a>
-        <nav class="nav">
-          <ul class="nav__list list-reset">
-            <li class="nav__item">
-              <a href="#" class="nav__link">About us</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Projects</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Stages</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Reviews</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="search">
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <rect
-                width="7.56126"
-                height="1.89031"
-                transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)"
-                fill="black"
-              />
-              <path
-                d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
-                stroke="black"
-                stroke-width="2"
-              />
-            </svg>
-          </span>
-        </button>
+        <div class="header__inner">
+          <nav class="nav">
+            <ul class="nav__list list-reset" id="menu">
+              <li class="nav__item">
+                <a href="#" class="nav__link">About us</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Stages</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Reviews</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="search">
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <rect
+                  width="7.56126"
+                  height="1.89031"
+                  transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)"
+                  fill="black"
+                />
+                <path
+                  d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
       </div>
     </header>
     <main>
@@ -251,11 +258,7 @@
                   initiated exclusively synthetically, are limited only by the
                   way of thinking. Being just a part of the overall picture,
                   replicated from foreign sources, modern research is subjected
-                  to a whole series of independent studies. By the way,
-                  nanotechnologies, seeking to supplant traditional production,
-                  highlight extremely interesting features of the picture as a
-                  whole, but specific conclusions, of course, are called to
-                  account.
+                  to a whole series of independent studies.
                 </p>
               </div>
               <div class="work-left__btns">
@@ -506,7 +509,7 @@
         </div>
       </div>
     </footer>
-    <script src="javascript/swiper-bundle.js"></script>
-    <script src="javascript/script.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
