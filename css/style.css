@@ -252,6 +252,10 @@ html {
    display: none;
 }
 
+.burger__line {
+   border-radius: 25px;
+}
+
 /* hero */
 
 .hero {
@@ -313,7 +317,7 @@ html {
 
 .hero-content__text {
    width: 670px;
-   height: 58px;
+   /* height: 58px; */
    font-weight: 700;
    font-size: 21px;
    margin: 24px 0 95px 0;
@@ -331,7 +335,7 @@ html {
 
 .about {
    padding-top: 50px;
-   padding-bottom: 20px;
+   /* padding-bottom: 20px; */
 }
 
 .about__heading {
@@ -441,7 +445,7 @@ html {
 /* Work */
 
 .work {
-   padding-top: 80px;
+   padding-top: 100px;
 }
 
 .work__heading {
@@ -533,6 +537,7 @@ html {
 .work-left__btns {
    display: flex;
    align-items: center;
+   position: relative;
 }
 
 .work-left__btn {
@@ -704,7 +709,8 @@ html {
 /* footer */
 
 .footer {
-   padding: 50px 0 20px 0;
+   /* padding: 50px 0 20px 0; */
+   padding: 100px 0px 12px 0px;
    background-color: var(--footer-color);
 }
 
@@ -775,7 +781,7 @@ html {
 }
 
 .footer-social {
-   display: flex;
+   /* display: flex; */
    align-items: center;
 }
 
@@ -923,7 +929,7 @@ html {
    cursor: pointer;
    display: inline-block;
    border: 1px solid transparent;
-   padding-left: 18px;
+   padding-left: 30px;
    color: var(--color-light-gray);
 }
 

@@ -19,9 +19,12 @@
 }
 
 @media (max-width: 1190px) {
+   .site-heading {
+      font-size: 42px;
+   }
+
    .burger {
       display: block;
-      margin-left: 30px;
       position: relative;
       color: #000;
    }
@@ -86,7 +89,6 @@
       z-index: 100;
       background-color: var(--color-white);
       box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
-      box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
       border-radius: 0px 0px 32px 32px;
       transition: left 0.3s ease-in-out;
    }
@@ -134,22 +136,62 @@
       transition: left 0.3s ease-in-out;
    }
 
+   .hero {
+      height: 670px;
+   }
+
+   .hero-content {
+      top: 162px;
+   }
+
+   .hero__titles {
+      font-size: 60px;
+      line-height: 76px;
+      margin-bottom: 10px;
+   }
+
+   .hero-content__text {
+      font-size: 20px;
+      line-height: 24px;
+      max-width: 660px;
+      margin-bottom: 58px;
+   }
+
+   .about {
+      padding-top: 35px;
+   }
+
+   .about__heading {
+      margin-bottom: 8px;
+   }
+
    .about-content__left {
-      min-height: 662px;
-      max-width: 936px;
+      min-height: 640px;
+      width: 100%;
       margin-right: 0;
    }
 
    .about-left__inner {
-      height: 200px;
+      width: 100%;
+      padding: 35px 48px 33px 54px;
+   }
+
+   .about-left__text {
+      max-width: 454px;
+      margin-right: 0;
    }
 
    .about-left__btn {
       text-wrap: nowrap;
    }
 
+   .about-left__inner {
+      width: 100%;
+      padding: 35px 48px 33px 54px;
+   }
+
    .about-content__right {
-      max-width: 936px;
+      width: 100%;
    }
    .about-right__item {
       background-position: left 25px top 55px;
@@ -161,13 +203,79 @@
 
    .about-right__title {
       font-size: 24px;
+      margin-bottom: 8px;
    }
    .about-right__text {
       font-size: 18px;
    }
 
+   .work {
+      padding-top: 80px;
+   }
+
+   .site-heading {
+      font-size: 42px;
+   }
+
+   .work__item:not(:last-child) {
+      margin-right: 72px;
+   }
+
+   .work__list {
+      margin-bottom: 55px;
+   }
+
+   .work-left__title {
+      margin-bottom: 9px;
+   }
+
    .work-left__text {
+      max-width: 437px;
+      margin-bottom: 24px;
       line-height: 29px;
+   }
+
+   .work-right {
+      width: 38%;
+   }
+
+   .faq__title {
+      font-size: 20px;
+      max-width: 756px;
+   }
+
+   .footer__title {
+      font-size: 37px;
+   }
+
+   .footer__form {
+      max-width: 541px;
+   }
+
+   /* .footer-wrapper {
+      min-width: 100%;
+   } */
+
+   .footer-right {
+      display: block;
+      width: 59%;
+   }
+
+   .footer__container {
+      justify-content: space-between;
+   }
+
+   .form__btn {
+      padding: 19px 80px;
+      margin-bottom: 10px;
+   }
+
+   .footer__logo {
+      margin-bottom: 20px;
+   }
+
+   .footer__list {
+      margin-bottom: 90px;
    }
 
    .footer__text {
